@@ -18,7 +18,9 @@ When you select images through input tag, images which are selected, are display
 ![Sample 1](images/Sample2.jpg)
 
 
-#### If you like this, don't hesitate to give me star 😇😋😇
-
 ## Contact me at:
 - [Gmail](mailto:jawad.bukhari1511@gmail.com)
+
+#### 😇😋😇 If you like my work, don't hesitate to give me star ⭐⭐⭐
+
+
