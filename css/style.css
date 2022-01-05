@@ -1,0 +1,150 @@
+.box{
+    width: 600px;
+    height: 420px;
+    background-color: rgb(231, 224, 224);
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 10px;
+    position: relative;
+}
+
+.profile_img{
+    position: absolute;
+    top: 10;
+    left: 10;
+    width: 50px;
+    height: 50px;
+}
+
+.profile_img img{
+    width: 100%;
+    border-radius: 50px;
+}
+
+.description textarea{
+    border: none;
+    resize: none;
+    margin-left: 60px;
+    /* background: none; */
+    outline: none;
+}
+
+
+
+
+/* Upload Images Styling */
+
+.upload_img_box span{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    display: block;
+    background: #fff;
+}
+
+.upload_img_box span input{
+    opacity: 0;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.upload_img_box span i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ccc;
+    font-size: 50px;
+}
+
+#upload_images_list::-webkit-scrollbar{
+	width: 8px;
+}
+
+#upload_images_list::-webkit-scrollbar-thumb{
+	background-color: rgb(202, 205, 207);
+	border-radius: 30px;
+	visibility: hidden;
+}
+
+#upload_images_list:hover::-webkit-scrollbar-thumb{
+	visibility: visible;
+}
+
+#upload_images_list{
+    padding: 5px 0 5px 0;
+    height: 220px;
+    /* background-color: grey; */
+    overflow-y: auto;
+}
+
+
+#upload_images_list li{
+    float: left;
+    border: 1px solid #ccc;
+    background: #ccc;
+    position: relative;
+    margin: 0 5px 5px 0;
+    width: 102px;
+}
+
+ul img{
+    width: 100px;
+    height: 100px;
+}
+
+#upload_images_list li:last-child{
+    margin-right: 0;
+}
+
+.post_hover_effect{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: none
+}
+
+.hover_effect_container{
+    position: relative;
+}
+
+#upload_images_list li:hover .post_hover_effect{
+    display: block;
+}
+
+
+.hover_effect_container i{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.remove_pic{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 18px;
+    color: rgb(255, 0, 0);
+    display: block;
+    height: 25px;
+    width: 25px;
+}
+
+.remove_pic:hover{
+    color: red;
+}
+
+
+ul{
+    list-style-type: none;
+}
+
